@@ -1,3 +1,5 @@
+- title: "Dev Logs"
+  url: devlog
 - title: Documentation
   url: docs
   links:
@@ -10,14 +12,10 @@
           url: "docs/getting-started#development"
         - title: Customization
           url: "docs/getting-started#customization"
-    - title: "Extras"
-      url: "docs/extras"
-      children:
-        - title: Quizzes
-          url: "docs/extras/example-quiz"
-        - title: Tags Page
-          url: "tags"
-    - title: "About"
-      url: "about"
-    - title: "News"
-      url: "news"
+        - title: "Extras"
+          url: "docs/extras"
+          grandchildren:
+            - title: Quizzes
+              url: "docs/extras/example-quiz"
+            - title: Tags Page
+              url: "tags"
