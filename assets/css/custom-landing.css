@@ -1,0 +1,155 @@
+---
+layout: null
+excluded_in_search: true
+---
+
+/* CUSTOM CSS */
+
+.gray{
+	color: #ccc !important;
+}
+
+body.content {
+    padding: 4em;
+}
+
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+button,
+.button {
+    background-color: {{ site.color }} ;
+    font-size: 0.6em;
+}
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+button:hover,
+.button:hover {
+    background-color: {{ site.color_hover }} ;
+}
+input[type="submit"]:active,
+input[type="reset"]:active,
+input[type="button"]:active,
+button:active,
+.button:active {
+    background-color: {{ site.color }} ;
+}
+
+.buttonwrapper a{
+	display: inline-block;
+	margin-right: 1.25em;
+	box-shadow: 2px 2px 4px 0 rgba(0,0,0,.25);
+}
+.buttonwrapper a:first-child {
+	margin-top: 0;
+}
+.buttonwrapper a:last-child{
+	margin-right: 0;
+}
+.buttonwrapper a input{
+	text-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+#header h1.title {
+	font-size: 2em;
+	font-family: "Orbitron", monospace;
+	opacity: 0.5;
+	transition: opacity 0.25s;
+}
+#header h1.title:hover {
+	opacity: 1;
+}
+
+#header h2.description {
+	line-height: 1em;
+	font-size: 0.7em;
+	white-space:pre-wrap;
+}
+
+#header h2.errortitle {
+	font-size: 1em;
+}
+
+
+/* Mobile layout rework */
+
+@media screen and (max-width: 1680px) {
+	#footer {
+		bottom: 1.5em;
+		left: 1.5em;
+	}
+}
+
+
+@media screen and (max-width: 736px) {
+
+	#header h1.title {
+		font-size: 1.5em;
+	}
+
+	.buttonwrapper a {
+		margin-right: 20px;
+	}
+	.buttonwrapper a:last-child {margin-right: 0;}
+	.buttonwrapper a input {
+		font-size: 0.6em;
+	}
+
+	#footer {
+		bottom: 1.25em;
+		left: 1.25em;
+	}
+}
+
+@media screen and (max-width: 480px) {
+
+	#header h2.description {
+		font-size: 0.6em;
+	}
+
+    header br {
+        display: none;
+    }
+
+	.buttonwrapper a {
+		margin-right: 10px;
+	}
+	.buttonwrapper a:last-child {margin-right: 0;}
+	body.content {
+		padding: 1.5em;
+		font-size: 16px;
+	}
+	#footer li:last-child {
+		display:none;
+	}
+	.buttonwrapper a input {
+		font-size: 0.5em;
+		padding: 0 1.125em;
+	}
+
+	#footer {
+		bottom: 1em;
+		left: 1em;
+	}
+
+}
+
+@media screen and (max-width: 330px) {
+	body.content .description, body.content .buttonwrapper {
+		display: none !important;
+	}
+	#footer {
+		bottom: 0.5em;
+		left: 0.5em;
+	}
+	h1.title {
+		font-size: 1.25em !important;
+	}
+}
+
+@media screen and (max-width: 220px) {
+	h1.title {
+		font-size: 0.75em !important;
+	}
+}

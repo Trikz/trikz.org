@@ -18115,7 +18115,6 @@ html body .md-typeset .headerlink {
 }
 
 .td-sidebar-nav a:hover {
-    color: #479DE7;
     text-decoration: none
 }
 
@@ -18231,13 +18230,7 @@ html body .md-typeset .headerlink {
     font-weight: 500
 }
 
-.td-toc #TableOfContents a {
-    color: #aaa;
-    transition: color 0.25s;
-}
-
 .td-toc #TableOfContents a:hover {
-    color: #479DE7;
     text-decoration: none
 }
 
@@ -18374,7 +18367,7 @@ html body .md-typeset .headerlink {
     margin-bottom: 1rem
 }
 
-.td-content>h2:not(:first-child) {
+.td-content>h2 {
     margin-top: 3rem
 }
 
@@ -18602,16 +18595,6 @@ footer {
         display: block;
         position: relative;
         top: -4rem;
-        visibility: hidden
-    }
-    h2[id]:before,
-    h3[id]:before,
-    h4[id]:before,
-    h5[id]:before {
-        display: block;
-        content: " ";
-        margin-top: -5rem;
-        height: 5rem;
         visibility: hidden
     }
 }
