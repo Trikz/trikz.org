@@ -77,7 +77,7 @@ getting started page for sherlock:
 {% raw %}[example](clusters/sherlock/getting-started.md){% endraw %}
 ```
 
-[Here](example-page) is an example link to a relative path of a file (`example-page.md`)
+[Here](example-page) is an example link to a relative path of a file [`example-page.md`)
 in the same directory, and from that page you can test linking to a subfoldr.
 In the case of not having a subfolder, we could write the link out directly:
 

@@ -29,9 +29,9 @@ values:
     0: Disallows clients to use saveloc functionality
 
 Affects:
-    (`sv_allow_client_setpos`)[link-to-convar]
-    (`sv_allow_client_setang`)[link-to-convar]
-    (`sv_allow_client_setvel`)[link-to-convar]
+    [`sv_allow_client_setpos`](link-to-convar)
+    [`sv_allow_client_setang`](link-to-convar)
+    [`sv_allow_client_setvel`](link-to-convar)
 
 #### sv_allow_client_setpos
 
@@ -41,7 +41,7 @@ values:
     0: Disallows clients to use setpos functionality
 
 Affects:
-    `sv_allow_client_saveloc`)[link-to-convar]
+    `sv_allow_client_saveloc`](link-to-convar)
 
 #### sv_allow_client_setang
 
@@ -51,7 +51,7 @@ values:
     0: Disallows clients to use setang functionality
 
 Affects:
-    `sv_allow_client_saveloc`)[link-to-convar]
+    `sv_allow_client_saveloc`](link-to-convar)
 
 #### sv_allow_client_setvel
 
@@ -61,7 +61,7 @@ values:
     0: Disallows clients to use setvel functionality
 
 Affects:
-    (`sv_allow_client_saveloc`)[link-to-convar]
+    [`sv_allow_client_saveloc`](link-to-convar)
 
 #### sv_allow_client_noclip
 

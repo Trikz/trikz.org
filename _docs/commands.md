@@ -20,8 +20,8 @@ usage: `toggle_block`
 description: Toggle noclip on yourself
 
 affected by:
-    (`sv_allow_client_noclip`)[link-to-convar]
-    (`sv_noclip_speed`)[link-to-convar] 
+    [`sv_allow_client_noclip`](link-to-convar)
+    [`sv_noclip_speed`](link-to-convar) 
 
 #### toggle_block
 
@@ -29,7 +29,7 @@ usage: `toggle_block`
 description: Toggle blocking on yourself
 
 affected by:
-    (`sv_allow_client_block`)[link-to-convar]
+    [`sv_allow_client_block`](link-to-convar)
 
 #### setpos
 
@@ -37,8 +37,8 @@ usage: `setpos <float:x> <float:y> <float:z>`
 description: Set position on yourself
 
 affected by:
-    (`sv_allow_client_setpos`)[link-to-convar]
-    (`sv_allow_client_saveloc`)[link-to-convar]
+    [`sv_allow_client_setpos`](link-to-convar)
+    [`sv_allow_client_saveloc`](link-to-convar)
 
 #### setang
 
@@ -46,8 +46,8 @@ usage: `setang <float:x> <float:y>`
 description: Set angles on yourself
 
 affected by:
-    (`sv_allow_client_setang`)[link-to-convar]
-    (`sv_allow_client_saveloc`)[link-to-convar]
+    [`sv_allow_client_setang`](link-to-convar)
+    [`sv_allow_client_saveloc`](link-to-convar)
 
 #### setvel
 
@@ -55,12 +55,12 @@ usage: `setvel <float:x> <float:y> <float:z>`
 description: Set velocity on yourself
 
 affected by:
-    (`sv_allow_client_setvel`)[link-to-convar]
-    (`sv_allow_client_saveloc`)[link-to-convar]
+    [`sv_allow_client_setvel`](link-to-convar)
+    [`sv_allow_client_saveloc`](link-to-convar)
 
 ### Saveloc
 
-Saveloc's is managed by clients, and enabled by servers via the convar (`sv_allow_client_saveloc`)[link-to-convar].
+Saveloc's is managed by clients, and enabled by servers via the convar [`sv_allow_client_saveloc`](link-to-convar).
 
 This is a key feature that allows clients to perfectly predict teleporting to saveloc's with desired position, velocity and angles which makes practicing intricate and narrow paths very pleasant.
 
@@ -69,17 +69,17 @@ Internally the saveloc system is just a list of saveloc's that can be accessed w
 #### saveloc_toggle_use_pos
 
 usage: `saveloc_toggle_use_pos`
-description: Toggles if (`saveloc_teleport`)[link-to-cmd] should use position when teleporting
+description: Toggles if [`saveloc_teleport`)[link-to-cmd] should use position when teleporting
 
 #### saveloc_toggle_use_ang
 
 usage: `saveloc_toggle_use_ang`
-description: Toggles if (`saveloc_teleport`)[link-to-cmd] should use angles when teleporting
+description: Toggles if [`saveloc_teleport`)[link-to-cmd] should use angles when teleporting
 
 #### saveloc_toggle_use_vel
 
 usage: `saveloc_toggle_use_vel`
-description: Toggles if (`saveloc_teleport`)[link-to-cmd] should use velocity when teleporting
+description: Toggles if [`saveloc_teleport`)[link-to-cmd] should use velocity when teleporting
 
 #### saveloc_teleport
 
@@ -87,7 +87,7 @@ usage: `saveloc_teleport [idx|name]`
     If no argument is given, current index is used instead
 
 description: Triggers a teleport event with saveloc information
-affected by: (`sv_allow_client_saveloc`)[link-to-convar]
+affected by: [`sv_allow_client_saveloc`](link-to-convar)
 
 #### saveloc_delete
 
