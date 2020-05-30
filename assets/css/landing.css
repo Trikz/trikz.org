@@ -1,5 +1,4 @@
 @import url(font-awesome.min.css);
-@import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
 @import url("https://fonts.googleapis.com/css?family=Orbitron:700");
 
@@ -25,14 +24,6 @@
 
 	body {
 		-ms-overflow-style: scrollbar;
-	}
-
-	@media screen and (max-width: 480px) {
-
-		html, body {
-			min-width: 320px;
-		}
-
 	}
 
 	html, body {
@@ -985,40 +976,3 @@ body.is-loading #bg {
 			}
 
 		}
-
-
-
-
-/* CUSTOM CSS */
-
-.buttonwrapper{
-	margin-top: 1.25em;
-}
-.buttonwrapper a{
-	display: inline-block;
-	margin-right: 20px;
-	box-shadow: 2px 2px 4px 0 rgba(0,0,0,.25);
-}
-.buttonwrapper a:last-child{
-	margin-right: 0;
-}
-.buttonwrapper a input{
-	text-shadow: 2px 2px 2px rgba(0,0,0,.25);
-}
-
-.title{
-	font-size: 80px;
-}
-
-.gray{
-	color: #ccc !important;
-}
-
-#header h1.title {
-	font-family: "Orbitron", monospace;
-	opacity: 0.5;
-	transition: opacity 0.25s;
-}
-#header h1.title:hover {
-	opacity: 1;
-}
