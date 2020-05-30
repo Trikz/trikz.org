@@ -38,14 +38,14 @@
 				var settings = {
 
 					// Images (in the format of 'url': 'alignment').
-						images: {
-							'assets/img/bg01.jpg': 'center',
-							'assets/img/bg02.jpg': 'center',
-							'assets/img/bg03.jpg': 'center',
-							'assets/img/bg04.jpg': 'center',
-							'assets/img/bg05.jpg': 'center',
-							'assets/img/bg06.jpg': 'center',
-						},
+						images: [
+							'./assets/img/bg01.jpg',
+							'./assets/img/bg02.jpg',
+							'./assets/img/bg03.jpg',
+							'./assets/img/bg04.jpg',
+							'./assets/img/bg05.jpg',
+							'./assets/img/bg06.jpg',
+						],
 
 					// Delay.
 						delay: 5000
@@ -65,8 +65,9 @@
 				for (k in settings.images) {
 					// Create BG.
 					$bg = document.createElement('div');
-					$bg.style.backgroundImage = 'url("' + k + '")';
-					$bg.style.backgroundPosition = settings.images[k];
+					var fixDomain = (window.location.href.endsWith("/")?"/":"")+settings.images[k];
+					$bg.style.backgroundImage = 'url("' + fixDomain + '")';
+					$bg.style.backgroundPosition = 'center';
 					$wrapper.appendChild($bg);
 					// Add it to array.
 					$bgs.push($bg);
