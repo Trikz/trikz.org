@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Trikz
+title: Trikz.org
 email: 
 author: Mev
 description: Trikz.org is the official website for the upcoming game "Trikz".
@@ -48,7 +48,8 @@ dribbble_url:
 # If commented, will use material hat theme
 # logo: "assets/img/logo/SRCC-square-red.png"
 logo_pixels: 34
-color: "#5667E2"
+color: "#479DE7"
+color_hover: "#75c1ff"
 # color: "#8c1515" # primary color for header, buttons
 
 # Build settings
@@ -59,8 +60,8 @@ markdown: kramdown
 # tag_search_endpoint: https://ask.cyberinfrastructure.org/search?q=
 tag_color: primary # danger, success, warning, primary, info, secondary
 
-accentColor: red # purple, green, etc.
-themeColor: red # purple, green, blue, orange, purple, grey
+accentColor: yellow # purple, green, etc.
+themeColor: blue # purple, green, blue, orange, purple, grey
 fixedNav: 'true' # true or false
 
 permalink: /:year/:title/
