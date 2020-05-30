@@ -14,36 +14,28 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Docsy Jekyll
-email: your-email@domain.com
-author: Dinosaur Avocado
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+title: Trikz
+email: 
+author: Mev
+description: Trikz.org is the official website for the upcoming game "Trikz".
+ Here you can find out more about Trikz, as well as view the game's documentation.
 
 # You'll want to customize url and baseurl for your own site:
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 
 # Social (First three Required)
-repo: "https://github.com/vsoch/docsy-jekyll"
-github_user: "vsoch"
-github_repo: "docsy-jekyll"
+repo: "https://github.com/Trikz/trikz.org"
+github_user: "Trikz"
+github_repo: "trikz.org"
 twitter_url:
 facebook_url:
 googleplus_url:
 instagram_url:
 linkedin_url:
-github_url: https://github.com/Trikz/trikz.org
 pinterest_url:
 slack_url:
 dribbble_url:
-
-# Optional
-twitter: 
-linkedin: 
-dockerhub: 
 
 # Should there be feedback buttons at the bottom of pages?
 # feedback: true
@@ -56,7 +48,7 @@ dockerhub:
 # If commented, will use material hat theme
 # logo: "assets/img/logo/SRCC-square-red.png"
 logo_pixels: 34
-color: "#30638e"
+color: "#5667E2"
 # color: "#8c1515" # primary color for header, buttons
 
 # Build settings
