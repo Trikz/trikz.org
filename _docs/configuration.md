@@ -13,80 +13,73 @@ description: Documentation for configuration in the game
 
 ## Client configuration
 
-### Convars
-
 ## Server configuration
 
-### Convars
-
-A list of server convars and a description.
+### Client restrictions
 
 #### sv_allow_client_saveloc
 
-type: bool
-values:
-    1: Allows clients to use saveloc functionality
-    0: Disallows clients to use saveloc functionality
+__Type:__ `bool`  
+__Description:__ Enable/disable clients ability to use [saveloc_teleport](commands#saveloc_teleport)  
+__Affects:__
 
-Affects:
-    [`sv_allow_client_setpos`](link-to-convar)
-    [`sv_allow_client_setang`](link-to-convar)
-    [`sv_allow_client_setvel`](link-to-convar)
+* [saveloc_teleport](commands#saveloc_teleport)
+* [sv_allow_client_setpos](configuration#sv_allow_client_setpos)
+* [sv_allow_client_setang](configuration#sv_allow_client_setang)
+* [sv_allow_client_setvel](configuration#sv_allow_client_setvel)
 
 #### sv_allow_client_setpos
 
-type: bool
-values:
-    1: Allows clients to use setpos functionality
-    0: Disallows clients to use setpos functionality
+__Type:__ `bool`  
+__Description:__ Enable/disable clients ability to set desired position  
+__Affects:__
 
-Affects:
-    `sv_allow_client_saveloc`](link-to-convar)
+* [setpos](commands#setpos)
+* [sv_allow_client_saveloc](configuration#sv_allow_client_saveloc)
 
 #### sv_allow_client_setang
 
-type: bool
-values:
-    1: Allows clients to use setang functionality
-    0: Disallows clients to use setang functionality
+__Type:__ `bool`  
+__Description:__ Enable/disable clients ability to set desired view angles  
+__Affects:__
 
-Affects:
-    `sv_allow_client_saveloc`](link-to-convar)
+* [setang](commands#setang)
+* [sv_allow_client_saveloc](configuration#sv_allow_client_saveloc)
 
 #### sv_allow_client_setvel
 
-type: bool
-values:
-    1: Allows clients to use setvel functionality
-    0: Disallows clients to use setvel functionality
+__Type:__ `bool`  
+__Description:__ Enable/disable clients ability to set desired velocity  
 
-Affects:
-    [`sv_allow_client_saveloc`](link-to-convar)
+__Affects:__
+
+* [setvel](commands#setvel)
+* [sv_allow_client_saveloc](configuration#sv_allow_client_saveloc)
 
 #### sv_allow_client_noclip
 
-type: bool
-values:
-    1: Allows clients to use noclip functionality
-    0: Disallows clients to use noclip functionality
+__Type:__ `bool`  
+__Description:__ Enable/disable clients ability to toggle noclip  
+__Affects:__
+
+* [toggle_noclip](commands#toggle_noclip)
 
 #### sv_allow_client_block
 
-type: bool
-values:
-    1: Allows clients to use blocking functionality within their team
-    0: Disallows clients to use blocking functionality within their team
+__Type:__ `bool`  
+__Description:__ Enable/disable clients ability to toggle blocking within a team  
+__Affects:__
+
+* [toggle_block](commands#toggle_block)
 
 #### sv_sidespeed
 
-type: float
-default: 400.0
-values:
-    any float: Sets maximum sidespeed per tick
+__Type:__ `float`  
+__Default:__ `400.0`  
+__Description:__ Sets maximum sidespeed per tick
 
 #### sv_forwardspeed
 
-type: float
-default: 400.0
-values:
-    any float: Sets maximum forwardspeed per tick
+__Type:__ `float`  
+__Default:__ `400.0`  
+__Description:__ Sets maximum sidespeed per tick

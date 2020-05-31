@@ -12,14 +12,12 @@ description: Documentation for commands in the game
 
 ## Client commands
 
-Client commands
-
 ### Essentials
 
 #### toggle_noclip
 
-Usage: `toggle_noclip`  
-Description: Toggle noclip on yourself  
+__Usage:__ `toggle_noclip`  
+__Description:__ Toggle noclip on yourself  
 __Affected by:__
 
 * [sv_allow_client_noclip](configuration#sv_allow_client_noclip)
@@ -27,25 +25,25 @@ __Affected by:__
 
 #### toggle_block
 
-Usage: `toggle_block`  
-Description: Toggle blocking on yourself  
+__Usage:__ `toggle_noclip`  
+__Description:__ Toggle blocking on yourself  
 __Affected by:__
 
 * [sv_allow_client_block](configuration#sv_allow_client_block)
 
 #### setpos
 
-Usage: `setpos <float:x> <float:y> <float:z>`  
-Description: Set position on yourself  
+__Usage:__ `setpos <float:x> <float:y> <float:z>`  
+__Description:__ Set position on yourself  
 __Affected by:__
 
 * [sv_allow_client_saveloc](configuration#sv_allow_client_saveloc)
 * [sv_allow_client_setpos](configuration#sv_allow_client_setpos)
-  
+
 #### setang
 
-Usage: `setang <float:x> <float:y>`  
-Description: Set angles on yourself  
+__Usage:__ `setang <float:x> <float:y>`  
+__Description:__ Set angles on yourself  
 __Affected by:__
 
 * [sv_allow_client_saveloc](configuration#sv_allow_client_saveloc)
@@ -53,8 +51,8 @@ __Affected by:__
 
 #### setvel
 
-Usage: `setvel <float:x> <float:y> <float:z>`  
-Description: Set velocity on yourself  
+__Usage:__ `setvel <float:x> <float:y> <float:z>`  
+__Description:__ Set velocity on yourself  
 __Affected by:__
 
 * [sv_allow_client_saveloc](configuration#sv_allow_client_saveloc)
@@ -70,63 +68,63 @@ Internally the saveloc system is just a list of saveloc's that can be accessed w
 
 #### saveloc_toggle_use_pos
 
-Usage: `saveloc_toggle_use_pos`  
-Description: Toggles if [saveloc_teleport](commands/#saveloc_teleport) should use position when teleporting  
+__Usage:__ `saveloc_toggle_use_pos`  
+__Description:__ Toggles if [saveloc_teleport](commands#saveloc_teleport) should use position when teleporting  
 
 #### saveloc_toggle_use_ang
 
-Usage: `saveloc_toggle_use_ang`  
-Description: Toggles if [saveloc_teleport](commands/#saveloc_teleport) should use angles when teleporting  
+__Usage:__ `saveloc_toggle_use_ang`  
+__Description:__ Toggles if [saveloc_teleport](commands#saveloc_teleport) should use angles when teleporting  
 
 #### saveloc_toggle_use_vel
 
-Usage: `saveloc_toggle_use_vel`  
-Description: Toggles if [saveloc_teleport](commands/#saveloc_teleport) should use velocity when teleporting  
+__Usage:__ `saveloc_toggle_use_vel`  
+__Description:__ Toggles if [saveloc_teleport](commands#saveloc_teleport) should use velocity when teleporting  
 
 #### saveloc_teleport
 
-Usage: `saveloc_teleport [idx|name]`  
-Description: Triggers a teleport event with saveloc information  
-Notes: If no argument is given, current index is used instead  
+__Usage:__ `saveloc_teleport [idx|name]`  
+__Notes:__ If no argument is given, current index is used instead  
+__Description:__ Triggers a teleport event with saveloc information  
 __Affected by:__
 
 * [sv_allow_client_saveloc](configuration#sv_allow_client_saveloc)
 
 #### saveloc_delete
 
-Usage: `saveloc_delete [idx|name]`  
-Description: Deletes saveloc entry in list  
-Notes: If no argument is given, current index is used instead  
+__Usage:__ `saveloc_delete [idx|name]`  
+__Notes:__ If no argument is given, current index is used instead  
+__Description:__ Deletes saveloc entry in list  
 
 #### saveloc_clear
 
-Usage: `saveloc_clear`  
-Description: Deletes all saveloc entries for current map  
+__Usage:__ `saveloc_clear`  
+__Description:__ Deletes all saveloc entries for current map  
 
 #### saveloc_insert
 
-Usage: `saveloc_insert <"after"|"before"> [idx|name]`  
-Description: Inserts a new saveloc entry that uses the players information for pos/ang/vel  
-Notes: Needed argument "after" or "before" which puts the entry after or before the index used, if no argument is given, current index is used instead  
+__Usage:__ `saveloc_insert <"after"|"before"> [idx|name]`  
+__Notes:__ Needed argument "after" or "before" which puts the entry after or before the index used, if no argument is given, current index is used instead  
+__Description:__ Inserts a new saveloc entry that uses the players information for pos/ang/vel  
 
 #### saveloc_save
 
-Usage: `saveloc_save`  
-Description: Alias for `saveloc_insert` which inserts it at current index  
+__Usage:__ `saveloc_save`  
+__Description:__ Alias for `saveloc_insert` which inserts it at current index  
 
 #### saveloc_select <idx|name>
 
-Usage: `saveloc_select <idx|name>`  
-Description: Change caret to desired index  
+__Usage:__ `saveloc_select <idx|name>`  
+__Description:__ Change caret to desired index  
 
 #### saveloc_next
 
-Usage: `saveloc_next`  
-Description: Alias for `saveloc_select current_index - 1`  
+__Usage:__ `saveloc_next`  
+__Description:__ Alias for `saveloc_select current_index - 1`  
 
 #### saveloc_prev
 
-Usage: `saveloc_next`  
-Description: Alias for `saveloc_select current_index - 1`  
+__Usage:__ `saveloc_next`  
+__Description:__ Alias for `saveloc_select current_index - 1`  
 
 ## Server commands
