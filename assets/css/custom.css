@@ -161,6 +161,10 @@ h5[id]:before {
     box-shadow: none;
 }
 
+.table thead th, .td-box .row.section>table thead th, .td-content>table thead th{
+    border-color: rgba(0,0,0,0.25) !important;
+}
+
 
 
 /* Scrollbar */
