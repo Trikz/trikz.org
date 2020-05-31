@@ -9,7 +9,7 @@ permalink: /
 	<h1 class="title"><a href="/">{{ site_title }}</a></h1>
 	<h2 class="description">{{ site_description }}</h2>
     <div class="buttonwrapper">
-        <a href="{{ site.baseurl }}/docs"><input class="button" type="submit" value="Documentation" /></a><!--
-        --><a href="{{ site.baseurl }}/news/"><input class="button" type="submit" value="Dev News" /></a>
+        <a href="./docs"><input class="button" type="submit" value="Documentation" /></a><!--
+        --><a href="./news/"><input class="button" type="submit" value="Dev News" /></a>
     </div>
 </div>

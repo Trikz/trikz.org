@@ -3,6 +3,16 @@
 - title: Documentation
   url: docs
   links:
+    - title: "Introduction"
+      url: "docs/introduction"
+    - title: Commands
+      url: "docs/commands"
+    - title: Convars
+      url: "docs/configuration"
+    - title: Entities
+      url: "docs/entities"
+    - title: Source Mod
+      url: "docs/sourcemod"
     - title: "Getting Started"
       url: "docs/getting-started"
       children:
@@ -12,10 +22,3 @@
           url: "docs/getting-started#development"
         - title: Customization
           url: "docs/getting-started#customization"
-        - title: "Extras"
-          url: "docs/extras"
-          grandchildren:
-            - title: Quizzes
-              url: "docs/extras/example-quiz"
-            - title: Tags Page
-              url: "tags"

@@ -25,15 +25,15 @@ excluded_in_search: true
 
 .td-toc li .md-nav__item.nested1 .md-nav__link {
     color: #eee;
-    font-weight: normal;
-    font-size: 1.1rem;
+    font-weight: 700;
+    font-size: 1rem;
     margin-left: 0.25em;
 }
 
 .td-toc li .md-nav__item.nested2 .md-nav__link {
     color: #aaa;
     font-weight: normal;
-    font-size: 1rem;
+    font-size: 0.8rem;
     margin-left: 0.5em;
 }
 
@@ -53,6 +53,25 @@ excluded_in_search: true
 
 div.td-main .row > div a:hover {
     color: {{ site.color_hover }} !important;
+}
+
+.td-content h3 {
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+.td-content h4 {
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+#TOC > li > a {
+    color: #eee;
+    font-weight: lighter;
+}
+
+.td-content p {
+    color: #aaa;
 }
 
 h1[id]:before,
@@ -78,6 +97,71 @@ h5[id]:before {
 #footer .col-sm-4{
     width: 100%;
 }
+
+/* Buttons */
+
+.btn:focus,
+.btn.focus {
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.btn:not(:disabled):not(.disabled):active,
+.btn:not(:disabled):not(.disabled).active {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.btn:not(:disabled):not(.disabled):active:focus,
+.btn:not(:disabled):not(.disabled).active:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.btn-primary {
+    color: #eee;
+    background-color: {{ site.color }};
+    border-radius: 4px !important;
+    outline: 0 !important;
+}
+
+.btn-primary:hover {
+    color: #eee;
+    background-color: {{ site.color_hover }};
+    border-color: {{ site.color_hover }};
+}
+
+.btn-primary:focus,
+.btn-primary.focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.btn-primary.disabled,
+.btn-primary:disabled {
+    color: #eee;
+    background-color: {{ site.color }};
+    border-color: {{ site.color }}
+}
+
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary:not(:disabled):not(.disabled).active,
+.show>.btn-primary.dropdown-toggle {
+    color: #eee;
+    background-color: {{ site.color_hover }};
+    background-image: none;
+    border-color: {{ site.color }}
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.btn-primary:not(:disabled):not(.disabled).active:focus,
+.show>.btn-primary.dropdown-toggle:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+
 
 /* Scrollbar */
 
