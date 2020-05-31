@@ -87,15 +87,29 @@ h5[id]:before {
 }
 
 #footer{
+    position: relative;
+    left: -15px;
     background: rgba(100,100,100,0.25);
+    padding: 0 !important;
+    margin-bottom: 0 !important;
+    width: calc(100% + 15px + 15px);
+    text-align: center;
+    min-height: 6rem;
 }
-
-#footer .footer-link {
+#footer .footwrapper {
     position: absolute;
-}
-
-#footer .col-sm-4{
+    top: 50%;
+    left: 0;
     width: 100%;
+    transform: translateY(-50%);
+}
+#footer .footwrapper .sitedesc {
+    font-size: 1rem;
+    margin-bottom: 0.5rem !important;
+}
+#footer .footwrapper .sitelink {
+    font-size: 1.5rem;
+    margin-bottom: 0 !important;
 }
 
 /* Buttons */

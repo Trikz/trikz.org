@@ -1,16 +1,7 @@
-<footer id="footer" class="py-5 row d-print-none">
-  <div class="container-fluid mx-sm-5">
-    <div class="row">
-      <div class="footer-link">
-        <a class="text-white" target="_blank" href="{{ site.repo }}">
-          <i class="fab fa-github"></i>
-        </a>
-      </div>
-      <div class="col-12 col-sm-4 text-center py-2 order-sm-2">
-        <small class="text-white">© 2019 {{ site.author }} All Rights Reserved</small>
-        {% if site.privacy %}<small class="ml-1"><a href="{{ site.privacy }}" target="_blank">Privacy Policy</a></small>{% endif %}
-        <p class="mt-2"><a href="/about/">About {{ site. }}</a></p>	
-      </div>
-    </div>
+<footer id="footer">
+  <div class="footwrapper">
+    <p class="sitedesc">© 2019 {{ site.author }} All Rights Reserved</p>
+    {% if site.privacy %}<small class="ml-1"><a href="{{ site.privacy }}" target="_blank">Privacy Policy</a></small>{% endif %}
+    <p class="sitelink"><a href="{{ site.url }}">{{ site.title }}</a></p>
   </div>
 </footer>
