@@ -1,5 +1,6 @@
 ---
 title: Convars
+layout: post
 tags: 
  - convars
  - commands
@@ -28,9 +29,9 @@ __Description:__ Enable/disable clients ability to use [saveloc_teleport](comman
 __Affects:__
 
 Affects:
-    [`sv_allow_client_setpos`](config-variables/link-to-convar)
-    [`sv_allow_client_setang`](config-variables/link-to-convar)
-    [`sv_allow_client_setvel`](config-variables/link-to-convar)
+    [`sv_allow_client_setpos`](config-variables/sv_exampleconvar)
+    [`sv_allow_client_setang`](config-variables/sv_exampleconvar)
+    [`sv_allow_client_setvel`](config-variables/sv_exampleconvar)
 
 #### sv_allow_client_setpos
 
@@ -39,7 +40,7 @@ __Description:__ Enable/disable clients ability to set desired position
 __Affects:__
 
 Affects:
-    `sv_allow_client_saveloc`](config-variables/link-to-convar)
+    `sv_allow_client_saveloc`](config-variables/sv_exampleconvar)
 
 #### sv_allow_client_setang
 
@@ -48,7 +49,7 @@ __Description:__ Enable/disable clients ability to set desired view angles
 __Affects:__
 
 Affects:
-    `sv_allow_client_saveloc`](config-variables/link-to-convar)
+    `sv_allow_client_saveloc`](config-variables/sv_exampleconvar)
 
 #### sv_allow_client_setvel
 
@@ -58,7 +59,7 @@ __Description:__ Enable/disable clients ability to set desired velocity
 __Affects:__
 
 Affects:
-    [`sv_allow_client_saveloc`](config-variables/link-to-convar)
+    [`sv_allow_client_saveloc`](config-variables/sv_exampleconvar)
 
 #### sv_allow_client_noclip
 

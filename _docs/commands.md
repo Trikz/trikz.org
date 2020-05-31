@@ -16,8 +16,6 @@ description: Documentation for commands in the game
 
 ### toggle_noclip
 
-[Link to page](/docs/commands/toggle_noclip)
-
 __Usage:__ `toggle_noclip`  
 __Description:__ Toggle noclip on yourself  
 __Affected by:__
@@ -25,6 +23,8 @@ __Affected by:__
 affected by:
     [`sv_allow_client_noclip`](/docs/config-variables/sv_exampleconvar)
     [`sv_noclip_speed`](/docs/config-variables/sv_exampleconvar) 
+
+#### [`Link to page`](/docs/commands/toggle_noclip)
 
 ### toggle_block
 

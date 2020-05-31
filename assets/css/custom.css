@@ -55,6 +55,22 @@ div.td-main .row > div a:hover {
     color: {{ site.color_hover }} !important;
 }
 
+.td-content>h1,
+.td-content>h2,
+.td-content>h3, 
+.td-content>h4, 
+.td-content>h5, 
+.td-content>h6 {
+    margin-bottom: 1rem;
+}
+.td-content>h3 {
+    margin-bottom: 0.5rem;
+}
+
+.td-content .headerlink {
+    display: none !important;
+}
+
 .td-content h3 {
     font-weight: 700;
     font-size: 1.4rem;
@@ -72,6 +88,21 @@ div.td-main .row > div a:hover {
 
 .td-content p {
     color: #aaa;
+    margin-left: 0.5rem;
+}
+.td-content h4 a > code {
+    padding: 0.25rem 0.5rem;
+    background: rgba(0,0,0,0.25);
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.td-content #link-to-page:before {
+    /*line-height: 0.5rem;*/
+    height: 3.5em;
+}
+.td-content h4 {
+    line-height: 0.5rem;
 }
 
 h1[id]:before,
@@ -138,6 +169,7 @@ h5[id]:before {
     background-color: {{ site.color }};
     border-radius: 4px !important;
     outline: 0 !important;
+    padding: .3rem 1rem;
 }
 
 .btn-primary:hover {
@@ -174,6 +206,12 @@ h5[id]:before {
     -webkit-box-shadow: none;
     box-shadow: none;
 }
+
+.btn-primary.thin {
+    padding: .375rem .75rem;
+}
+
+/* Darken code blocks */
 
 .table thead th, .td-box .row.section>table thead th, .td-content>table thead th{
     border-color: rgba(0,0,0,0.25) !important;
