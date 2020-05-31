@@ -1,19 +1,23 @@
 ---
-title: Configuration
+title: Convars
 tags: 
  - convars
  - commands
  - developers
  - configuration
  - server owners
-description: Documentation for configuration in the game
+description: Documentation for convar configuration in the game
 ---
 
-# Configuration
+# Convars
 
-## Client configuration
+## Client
 
-## Server configuration
+### Convars
+
+Nothing to show!
+
+## Server
 
 ### Client restrictions
 
@@ -23,10 +27,10 @@ __Type:__ `bool`
 __Description:__ Enable/disable clients ability to use [saveloc_teleport](commands#saveloc_teleport)  
 __Affects:__
 
-* [saveloc_teleport](commands#saveloc_teleport)
-* [sv_allow_client_setpos](configuration#sv_allow_client_setpos)
-* [sv_allow_client_setang](configuration#sv_allow_client_setang)
-* [sv_allow_client_setvel](configuration#sv_allow_client_setvel)
+Affects:
+    [`sv_allow_client_setpos`](config-variables/link-to-convar)
+    [`sv_allow_client_setang`](config-variables/link-to-convar)
+    [`sv_allow_client_setvel`](config-variables/link-to-convar)
 
 #### sv_allow_client_setpos
 
@@ -34,8 +38,8 @@ __Type:__ `bool`
 __Description:__ Enable/disable clients ability to set desired position  
 __Affects:__
 
-* [setpos](commands#setpos)
-* [sv_allow_client_saveloc](configuration#sv_allow_client_saveloc)
+Affects:
+    `sv_allow_client_saveloc`](config-variables/link-to-convar)
 
 #### sv_allow_client_setang
 
@@ -43,8 +47,8 @@ __Type:__ `bool`
 __Description:__ Enable/disable clients ability to set desired view angles  
 __Affects:__
 
-* [setang](commands#setang)
-* [sv_allow_client_saveloc](configuration#sv_allow_client_saveloc)
+Affects:
+    `sv_allow_client_saveloc`](config-variables/link-to-convar)
 
 #### sv_allow_client_setvel
 
@@ -53,8 +57,8 @@ __Description:__ Enable/disable clients ability to set desired velocity
 
 __Affects:__
 
-* [setvel](commands#setvel)
-* [sv_allow_client_saveloc](configuration#sv_allow_client_saveloc)
+Affects:
+    [`sv_allow_client_saveloc`](config-variables/link-to-convar)
 
 #### sv_allow_client_noclip
 
