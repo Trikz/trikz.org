@@ -1,8 +1,9 @@
 ---
-layout: post
 title: toggle_noclip
 description: Detailed summary of toggle_noclip
 ---
+
+# toggle_noclip
 
 ## Description
 

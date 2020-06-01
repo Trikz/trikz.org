@@ -1,8 +1,9 @@
 ---
-layout: post
 title: sv_exampleconvar
 description: This is an example for a new convar page
 ---
+
+# sv_exampleconvar
 
 ## Description
 

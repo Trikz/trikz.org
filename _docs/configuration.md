@@ -1,6 +1,5 @@
 ---
 title: Configuration
-layout: post
 tags: 
  - convars
  - commands
@@ -9,6 +8,8 @@ tags:
  - server owners
 description: Documentation for convar configuration in the game
 ---
+
+# Configuration
 
 ## Dedicated servers
 

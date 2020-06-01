@@ -1,8 +1,9 @@
 ---
-layout: post
 title: sv_allow_client_saveloc
 description: Detailed summary of sv_allow_client_saveloc
 ---
+
+# sv_allow_client_saveloc
 
 ## Description
 

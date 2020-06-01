@@ -8,6 +8,8 @@ tags:
 description: Documentation for commands in the game
 ---
 
+# Commands
+
 ## Client commands
 
 ### Essentials
