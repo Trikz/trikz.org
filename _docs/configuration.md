@@ -32,7 +32,7 @@ __Affects:__
 * [sv_allow_client_setang](#sv_allow_client_setang)
 * [sv_allow_client_setvel](#sv_allow_client_setvel)
 
-<button class="btn btn-primary" href="convars/sv_allow_client_saveloc">Detailed summary</button>
+<a href="convars/sv_allow_client_saveloc"><button class="btn btn-primary">Detailed summary</button></a>
 
 #### sv_allow_client_setpos
 
@@ -44,7 +44,7 @@ __Affects:__
 * [saveloc's](commands#saveloc)
 * [sv_allow_client_saveloc](#sv_allow_client_saveloc)
 
-<button class="btn btn-primary" href="convars/sv_allow_client_setpos">Detailed summary</button>
+<a href="convars/sv_allow_client_setpos"><button class="btn btn-primary">Detailed summary</button></a>
 
 #### sv_allow_client_setang
 
@@ -56,7 +56,7 @@ __Affects:__
 * [saveloc's](commands#saveloc)
 * [sv_allow_client_saveloc](#sv_allow_client_saveloc)
 
-<button class="btn btn-primary" href="convars/sv_allow_client_setang">Detailed summary</button>
+<a href="convars/sv_allow_client_setang"><button class="btn btn-primary">Detailed summary</button></a>
 
 #### sv_allow_client_setvel
 
@@ -68,7 +68,7 @@ __Affects:__
 * [saveloc's](commands#saveloc)
 * [sv_allow_client_saveloc](#sv_allow_client_saveloc)
 
-<button class="btn btn-primary" href="convars/sv_allow_client_setvel">Detailed summary</button>
+<a href="convars/sv_allow_client_setvel"><button class="btn btn-primary">Detailed summary</button></a>
 
 #### sv_allow_client_noclip
 
@@ -79,7 +79,7 @@ __Affects:__
 
 * [toggle_noclip](commands#toggle_noclip)
 
-<button class="btn btn-primary" href="convars/sv_allow_client_noclip">Detailed summary</button>
+<a href="convars/sv_allow_client_noclip"><button class="btn btn-primary">Detailed summary</button></a>
 
 #### sv_allow_client_block
 
@@ -90,7 +90,7 @@ __Affects:__
 
 * [toggle_block](commands#toggle_block)
 
-<button class="btn btn-primary" href="convars/sv_allow_client_block">Detailed summary</button>
+<a href="convars/sv_allow_client_block"><button class="btn btn-primary">Detailed summary</button></a>
 
 ### Movement
 
@@ -103,7 +103,7 @@ __Affects:__
 
 * Movement
 
-<button class="btn btn-primary" href="convars/sv_gravity">Detailed summary</button>
+<a href="convars/sv_gravity"><button class="btn btn-primary">Detailed summary</button></a>
 
 #### sv_sidespeed
 
@@ -114,7 +114,7 @@ __Affects:__
 
 * [sidemove](commands#sourcemod-TODO)
 
-<button class="btn btn-primary" href="convars/sv_sidespeed">Detailed summary</button>
+<a href="convars/sv_sidespeed"><button class="btn btn-primary">Detailed summary</button></a>
 
 #### sv_forwardspeed
 
@@ -125,4 +125,4 @@ __Affects:__
 
 * [forwardmove](commands#sourcemod-TODO)
 
-<button class="btn btn-primary" href="convars/sv_forwardspeed">Detailed summary</button>
+<a href="convars/sv_forwardspeed"><button class="btn btn-primary">Detailed summary</button></a>
