@@ -23,7 +23,7 @@ __Affected by:__
 * [sv_allow_client_noclip](configuration#sv_allow_client_noclip)
 * [sv_noclip_speed](configuration#sv_noclip_speed)
 
-<a href="convars/toggle_noclip"><button class="btn btn-primary">Detailed summary</button></a>
+<a href="commands/toggle_noclip"><button class="btn btn-primary">Detailed summary</button></a>
 
 #### toggle_block
 
@@ -33,7 +33,7 @@ __Affected by:__
 
 * [sv_allow_client_block](configuration#sv_allow_client_block)
 
-<a href="convars/toggle_block"><button class="btn btn-primary">Detailed summary</button></a>
+<a href="commands/toggle_block"><button class="btn btn-primary">Detailed summary</button></a>
 
 #### setpos
 
@@ -44,7 +44,7 @@ __Affected by:__
 * [sv_allow_client_setpos](configuration#sv_allow_client_setpos)
 * [sv_allow_client_saveloc](configuration#sv_allow_client_setpos)
 
-<a href="convars/setpos"><button class="btn btn-primary">Detailed summary</button></a>
+<a href="commands/setpos"><button class="btn btn-primary">Detailed summary</button></a>
 
 #### setang
 
@@ -55,7 +55,7 @@ __Affected by:__
 * [sv_allow_client_setang](configuration#sv_allow_client_setang)
 * [sv_allow_client_saveloc](configuration#sv_allow_client_saveloc)
 
-<a href="convars/setang"><button class="btn btn-primary">Detailed summary</button></a>
+<a href="commands/setang"><button class="btn btn-primary">Detailed summary</button></a>
 
 #### setvel
 
@@ -66,7 +66,7 @@ __Affected by:__
 * [sv_allow_client_setvel](configuration#sv_allow_client_setvel)
 * [sv_allow_client_saveloc](configuration#sv_allow_client_saveloc)
 
-<a href="convars/setvel"><button class="btn btn-primary">Detailed summary</button></a>
+<a href="commands/setvel"><button class="btn btn-primary">Detailed summary</button></a>
 
 ### Saveloc
 
@@ -81,21 +81,21 @@ Internally the saveloc system is just a list of saveloc's that can be accessed w
 __Usage:__  `saveloc_toggle_use_pos`  
 __Description:__ Toggles if [saveloc_teleport](#saveloc_teleport) should use position when teleporting  
 
-<a href="convars/saveloc_toggle_use_pos"><button class="btn btn-primary">Detailed summary</button></a>
+<a href="commands/saveloc_toggle_use_pos"><button class="btn btn-primary">Detailed summary</button></a>
 
 #### saveloc_toggle_use_ang
 
 __Usage:__  `saveloc_toggle_use_ang`  
 __Description:__ Toggles if [saveloc_teleport](#saveloc_teleport) should use angles when teleporting  
 
-<a href="convars/saveloc_toggle_use_ang"><button class="btn btn-primary">Detailed summary</button></a>
+<a href="commands/saveloc_toggle_use_ang"><button class="btn btn-primary">Detailed summary</button></a>
 
 #### saveloc_toggle_use_vel
 
 __Usage:__  `saveloc_toggle_use_vel`  
 __Description:__ Toggles if [saveloc_teleport](#saveloc_teleport) should use velocity when teleporting  
 
-<a href="convars/saveloc_toggle_use_vel"><button class="btn btn-primary">Detailed summary</button></a>
+<a href="commands/saveloc_toggle_use_vel"><button class="btn btn-primary">Detailed summary</button></a>
 
 #### saveloc_teleport
 
@@ -105,53 +105,53 @@ __Affected by:__
 
 * [sv_allow_client_saveloc](configuration#sv_allow_client_saveloc)
 
-<a href="convars/saveloc_teleport"><button class="btn btn-primary">Detailed summary</button></a>
+<a href="commands/saveloc_teleport"><button class="btn btn-primary">Detailed summary</button></a>
 
 #### saveloc_delete
 
 __Usage:__ `saveloc_delete [idx|name]`  
 __Description:__ Deletes saveloc entry in list  
 
-<a href="convars/saveloc_delete"><button class="btn btn-primary">Detailed summary</button></a>
+<a href="commands/saveloc_delete"><button class="btn btn-primary">Detailed summary</button></a>
 
 #### saveloc_clear
 
 __Usage:__ `saveloc_clear`  
 __Description:__ Deletes all saveloc entries for current map  
 
-<a href="convars/saveloc_clear"><button class="btn btn-primary">Detailed summary</button></a>
+<a href="commands/saveloc_clear"><button class="btn btn-primary">Detailed summary</button></a>
 
 #### saveloc_insert
 
 __Usage:__ `saveloc_insert <"after"|"before"> [idx|name]`  
 __Description:__ Inserts a new saveloc entry that uses the players information for pos/ang/vel  
 
-<a href="convars/saveloc_insert"><button class="btn btn-primary">Detailed summary</button></a>
+<a href="commands/saveloc_insert"><button class="btn btn-primary">Detailed summary</button></a>
 
 #### saveloc_save
 
 __Usage:__ `saveloc_save`  
 __Description:__ Alias for `saveloc_insert` which inserts it at current index  
 
-<a href="convars/saveloc_save"><button class="btn btn-primary">Detailed summary</button></a>
+<a href="commands/saveloc_save"><button class="btn btn-primary">Detailed summary</button></a>
 
 #### saveloc_select
 
 __Usage:__ `saveloc_select <idx|name>`  
 __Description:__ Change caret to desired index  
 
-<a href="convars/saveloc_select"><button class="btn btn-primary">Detailed summary</button></a>
+<a href="commands/saveloc_select"><button class="btn btn-primary">Detailed summary</button></a>
 
 #### saveloc_next
 
 __Usage:__ `saveloc_next`  
 __Description:__ Alias for `saveloc_select current_index - 1`  
 
-<a href="convars/saveloc_next"><button class="btn btn-primary">Detailed summary</button></a>
+<a href="commands/saveloc_next"><button class="btn btn-primary">Detailed summary</button></a>
 
 #### saveloc_prev
 
 __Usage:__ `saveloc_prev`  
 __Description:__ Alias for `saveloc_select current_index - 1`  
 
-<a href="convars/saveloc_prev"><button class="btn btn-primary">Detailed summary</button></a>
+<a href="commands/saveloc_prev"><button class="btn btn-primary">Detailed summary</button></a>
