@@ -1,7 +1,7 @@
 ---
-layout: page
 title: Documentation
 permalink: /docs/
+layout: page
 ---
 
 # Documentation
@@ -13,7 +13,7 @@ particular page.
     <hr class="panel-line">
     {% for post in site.docs  %}        
     <div class="entry">
-    <h5><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h5>
+    <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
     <p>{{ post.description }}</p>
     </div>{% endfor %}
 </div>

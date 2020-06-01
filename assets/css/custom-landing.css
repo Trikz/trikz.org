@@ -36,13 +36,13 @@ button:active,
     background-color: {{ site.color }} ;
 }
 
-.buttonwrapper a{
+.buttonwrapper a > *{
 	display: inline-block;
-	margin-right: 1.25em;
 	box-shadow: 2px 2px 4px 0 rgba(0,0,0,.25);
 }
 .buttonwrapper a:first-child {
 	margin-top: 0;
+
 }
 .buttonwrapper a:last-child{
 	margin-right: 0;
@@ -71,6 +71,9 @@ button:active,
 	font-size: 1em;
 }
 
+.githubname {
+	margin-left: 0.75rem;
+}
 
 /* Mobile layout rework */
 
@@ -78,6 +81,9 @@ button:active,
 	#footer {
 		bottom: 1.5em;
 		left: 1.5em;
+	}
+	.buttonwrapper a.md-source { /* github */
+		font-size: 1.5rem;
 	}
 }
 
@@ -136,7 +142,7 @@ button:active,
 }
 
 @media screen and (max-width: 330px) {
-	body.content .description, body.content .buttonwrapper {
+	body.content .description{
 		display: none !important;
 	}
 	#footer {
@@ -145,6 +151,12 @@ button:active,
 	}
 	h1.title {
 		font-size: 1.25em !important;
+	}
+	.githubname {
+		display: none !important;
+	}
+	i.fa {
+		font-size: 2em;
 	}
 }
 

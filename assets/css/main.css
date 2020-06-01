@@ -17890,7 +17890,7 @@ a.text-dark:focus {
     margin: 0;
     font-size: 85%;
     word-break: normal;
-    background-color: transparent;
+    background-color: rgba(0,0,0,0.25);
     border-radius: .25rem
 }
 
@@ -18578,16 +18578,6 @@ html body .md-typeset .headerlink {
 .pageinfo-dark {
     border-style: solid;
     border-color: #403f4c
-}
-
-footer {
-    min-height: 150px
-}
-
-@media(max-width:991.98px) {
-    footer {
-        min-height: 200px
-    }
 }
 
 @media(min-width:768px) {

@@ -34,7 +34,7 @@
                <hr class="panel-line">{% for child in section.links %}
                  <div class="entry">
                     <h5>
-                        <a href="{% if child.url %}{{ site.baseurl }}{{ child.url }}{% else %}{{ child.external_url }}{% endif %}">{{ child.title }}</a>
+                        <a href="{% if child.url %}{{ site.url }}{{ child.url }}{% else %}{{ child.external_url }}{% endif %}">{{ child.title }}</a>
                     </h5>
                     <p>{{ child.description }}</p>
                  </div>{% endfor %}
