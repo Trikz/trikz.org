@@ -10,8 +10,6 @@ tags:
 description: Documentation for convar configuration in the game
 ---
 
-# Configuration
-
 ## Dedicated servers
 
 ### Downloading server

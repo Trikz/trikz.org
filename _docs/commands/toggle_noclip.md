@@ -4,13 +4,13 @@ title: toggle_noclip
 description: Detailed summary of toggle_noclip
 ---
 
-### Description
+## Description
 
 Toggles noclip on yourself, so you can fly around.  
 
 Can be used for quickly moving around and practicing.  
 
-### Usage
+## Usage
 
 > toggle_noclip
 

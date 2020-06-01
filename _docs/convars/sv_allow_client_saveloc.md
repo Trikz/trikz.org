@@ -4,11 +4,11 @@ title: sv_allow_client_saveloc
 description: Detailed summary of sv_allow_client_saveloc
 ---
 
-### Description
+## Description
 
 Allow or disallow clients to use saveloc functionality on your server.  
 
-### Usage
+## Usage
 
 > sv_allow_client_saveloc <bool>
 >

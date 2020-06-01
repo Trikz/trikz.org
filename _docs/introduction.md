@@ -6,8 +6,6 @@ tags:
  - intro
 ---
 
-# Introduction
-
 ## Abbreviations
 
 A list of abbreviations used on this site.
