@@ -7,11 +7,11 @@
       url: "docs/introduction"
     - title: Commands
       url: "docs/commands"
-    - title: Convars
+    - title: Configuration
       url: "docs/configuration"
     - title: Entities
       url: "docs/entities"
-    - title: Source Mod
+    - title: Sourcemod
       url: "docs/sourcemod"
     - title: "Getting Started"
       url: "docs/getting-started"

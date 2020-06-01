@@ -6,3 +6,5 @@ tags:
  - content creators
 description: Documentation for entities within the game
 ---
+
+# Entities
