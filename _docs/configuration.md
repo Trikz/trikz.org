@@ -77,9 +77,15 @@ __Affects:__
 __Type:__ `float`  
 __Default:__ `400.0`  
 __Description:__ Sets maximum sidespeed per tick
+__Affects:__
+
+* [sidemove](commands#sourcemod-TODO)
 
 #### sv_forwardspeed
 
 __Type:__ `float`  
 __Default:__ `400.0`  
 __Description:__ Sets maximum sidespeed per tick
+__Affects:__
+
+* [forwardmove](commands#sourcemod-TODO)

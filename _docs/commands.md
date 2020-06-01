@@ -60,10 +60,10 @@ __Affected by:__
 
 ### Saveloc
 
-Saveloc's is managed by clients, and enabled by servers via the convar [`sv_allow_client_saveloc`](link-to-convar).  
+Saveloc's is managed by clients, and enabled by servers via the convar [sv_allow_client_saveloc](configuration#sv_allow_client_saveloc).  
   
 This is a key feature that allows clients to perfectly predict teleporting to saveloc's with desired position, velocity and angles which makes practicing intricate and narrow paths very pleasant.  
-  
+  9
 Internally the saveloc system is just a list of saveloc's that can be accessed with a name or index number through various commands.  
 
 #### saveloc_toggle_use_pos
