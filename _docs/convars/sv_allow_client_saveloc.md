@@ -15,4 +15,4 @@ Allow or disallow clients to use saveloc functionality on your server.
 > 1: Enables
 > 0: Disables
 
-<a href="window.history.back()"><button class="btn btn-primary">Go back</button></a>
+<a onclick="window.history.back()"><button class="btn btn-primary">Go back</button></a>

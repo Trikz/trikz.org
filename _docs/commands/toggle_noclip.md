@@ -14,4 +14,4 @@ Can be used for quickly moving around and practicing.
 
 > toggle_noclip
 
-<a href="window.history.back()"><button class="btn btn-primary">Go back</button></a>
+<a onclick="window.history.back()"><button class="btn btn-primary">Go back</button></a>
