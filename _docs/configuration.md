@@ -24,15 +24,15 @@ description: Documentation for convar configuration in the game
 
 __Type:__ `bool`  
 __Default:__ `1`  
-__Description:__ Enable/disable clients ability to use [saveloc_teleport](../commands#saveloc_teleport)  
+__Description:__ Enable/disable clients ability to use [saveloc_teleport](commands#saveloc_teleport)  
 __Affects:__
 
-* [saveloc's](../commands#saveloc)
+* [saveloc's](commands#saveloc)
 * [sv_allow_client_setpos](#sv_allow_client_setpos)
 * [sv_allow_client_setang](#sv_allow_client_setang)
 * [sv_allow_client_setvel](#sv_allow_client_setvel)
 
-<button class="btn btn-primary" href="../convars/sv_allow_client_saveloc">Detailed summary</button>
+<button class="btn btn-primary" href="convars/sv_allow_client_saveloc">Detailed summary</button>
 
 #### sv_allow_client_setpos
 
@@ -41,10 +41,10 @@ __Default:__ `1`
 __Description:__ Enable/disable clients ability to set desired position  
 __Affects:__
 
-* [saveloc's](../commands#saveloc)
+* [saveloc's](commands#saveloc)
 * [sv_allow_client_saveloc](#sv_allow_client_saveloc)
 
-<button class="btn btn-primary" href="../convars/sv_allow_client_setpos">Detailed summary</button>
+<button class="btn btn-primary" href="convars/sv_allow_client_setpos">Detailed summary</button>
 
 #### sv_allow_client_setang
 
@@ -53,10 +53,10 @@ __Default:__ `1`
 __Description:__ Enable/disable clients ability to set desired view angles  
 __Affects:__
 
-* [saveloc's](../commands#saveloc)
+* [saveloc's](commands#saveloc)
 * [sv_allow_client_saveloc](#sv_allow_client_saveloc)
 
-<button class="btn btn-primary" href="../convars/sv_allow_client_setang">Detailed summary</button>
+<button class="btn btn-primary" href="convars/sv_allow_client_setang">Detailed summary</button>
 
 #### sv_allow_client_setvel
 
@@ -65,10 +65,10 @@ __Default:__ `1`
 __Description:__ Enable/disable clients ability to set desired velocity  
 __Affects:__
 
-* [saveloc's](../commands#saveloc)
+* [saveloc's](commands#saveloc)
 * [sv_allow_client_saveloc](#sv_allow_client_saveloc)
 
-<button class="btn btn-primary" href="../convars/sv_allow_client_setvel">Detailed summary</button>
+<button class="btn btn-primary" href="convars/sv_allow_client_setvel">Detailed summary</button>
 
 #### sv_allow_client_noclip
 
@@ -79,7 +79,7 @@ __Affects:__
 
 * [toggle_noclip](commands#toggle_noclip)
 
-<button class="btn btn-primary" href="../convars/sv_allow_client_noclip">Detailed summary</button>
+<button class="btn btn-primary" href="convars/sv_allow_client_noclip">Detailed summary</button>
 
 #### sv_allow_client_block
 
@@ -90,7 +90,7 @@ __Affects:__
 
 * [toggle_block](commands#toggle_block)
 
-<button class="btn btn-primary" href="../convars/sv_allow_client_block">Detailed summary</button>
+<button class="btn btn-primary" href="convars/sv_allow_client_block">Detailed summary</button>
 
 ### Movement
 
@@ -103,7 +103,7 @@ __Affects:__
 
 * Movement
 
-<button class="btn btn-primary" href="../convars/sv_gravity">Detailed summary</button>
+<button class="btn btn-primary" href="convars/sv_gravity">Detailed summary</button>
 
 #### sv_sidespeed
 
@@ -114,7 +114,7 @@ __Affects:__
 
 * [sidemove](commands#sourcemod-TODO)
 
-<button class="btn btn-primary" href="../convars/sv_sidespeed">Detailed summary</button>
+<button class="btn btn-primary" href="convars/sv_sidespeed">Detailed summary</button>
 
 #### sv_forwardspeed
 
@@ -125,4 +125,4 @@ __Affects:__
 
 * [forwardmove](commands#sourcemod-TODO)
 
-<button class="btn btn-primary" href="../convars/sv_forwardspeed">Detailed summary</button>
+<button class="btn btn-primary" href="convars/sv_forwardspeed">Detailed summary</button>
